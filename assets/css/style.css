@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin:0px;
+    height:100%;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  
+
+.landing-page {
+    background:rgb(131, 237, 225);
+    height:100%;
+  }
+
+.main-content {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(172, 214, 0, 0.162);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 80px;
+
+
+    & h1 {
+        font-size: 5rem;
+    }
+
+    & h3 {
+        font-size: 1.3rem;
+        letter-spacing: .7rem;
+        font-weight: 200;
+        margin-bottom: 20px;
+    }
+}
+
+
+.landing-buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.landing-buttons .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100px;
+    background-color: rgba(3, 66, 47, 0.96);
+    border-radius: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    outline: 3px rgb(0, 0, 0) solid;
+    transition: background-color .5s ease;
+
+}
+
+.landing-buttons .button:hover {
+    background-color: #ffffff;
+    color: rgba(3, 66, 47, 0.96);
+    outline: ;
+}
+
+
