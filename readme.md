@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/sdecena/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Seatwork 3</h3>
@@ -119,3 +119,5 @@ WD-ProjectName
 |-|-|-|
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
 | Font Awesome Icons | Using the social media icons for design | https://fontawesome.com/search?q=email&o=r |
+| Landing Page Background | Background image design for landing page | https://unsplash.com/photos/a-person-standing-on-top-of-a-hill-under-a-night-sky-filled-with-stars-CgQ1TZ0gDd8 |
+| Drop Shadow Effect | Drop Shadow Effect for other logos, texts, and icons | https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow |
