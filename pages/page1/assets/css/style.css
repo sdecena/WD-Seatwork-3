@@ -703,6 +703,16 @@ button.ani-nav4-design4 {
     gap: .8rem;
     justify-content: end;
     height: 30px;
+    margin-right: 10px;
+
+}
+
+.ani-right-section2 {
+    align-items: center;
+    display: flex;
+    gap: .8rem;
+    justify-content: end;
+    height: 30px;
 
 }
 
@@ -769,6 +779,19 @@ button.ani-nav4-design4 {
 .ani-company-logo4:hover {
     transform: rotateX(360deg);
     filter: drop-shadow(10px 5px 5px #000000);
+}
+
+.ani-right-section:hover {
+    color: white;
+    filter: drop-shadow(2px 2px 2px #000000);
+
+    transform: scale(1.1);
+}
+
+.ani-right-section2:hover {
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(2px 2px 2px #000000);
+    transform: scale(1.1);
 }
 
 
@@ -939,4 +962,8 @@ nav.ani-navigation5-bot {
 
 .ani-des5-icon1 li .fas {
     color: black;
+}
+
+.fa-user:active{
+    transform: scale(1.2);
 }

@@ -55,7 +55,7 @@ html, body {
 .landing-buttons {
     margin-top: 30px;
     display: flex;
-    gap: 10px;
+    gap: 50px;
     list-style: none;
 }
 
@@ -76,6 +76,7 @@ html, body {
 }
 
 .landing-buttons .button:hover {
+    transform: scale(1.2);
     background-color: #ffffff;
     color: rgb(38, 5, 94);
 }
