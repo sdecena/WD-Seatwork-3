@@ -6,14 +6,14 @@
 <div align="center">
   <a href="https://github.com/sdecena/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/pic-page.png" alt="Nyebe" width="130" height="130">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Seatwork 3</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  Header and Footer
 </div>
 
 <br />
@@ -60,7 +60,7 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-The project involves creating a variety of web design components including 5 static header designs, 5 animated header designs, 5 static footer designs, and 5 animated footer designs. The purpose is to showcase our creativity and develop our skills in web design. The key components include various layouts/designs for both header and footer and different animations as well. We used HTML and CSS to create these designs. By using these tools correctly, we ensure that out created designs are visually appealing and organized.
+The project involves creating a variety of web design components including 5 static header designs, 5 animated header designs, 5 static footer designs, and 5 animated footer designs. The purpose is to showcase our creativity and develop our skills in web design. The key components include various layouts/designs for both header and footer and different animations as well. We used HTML and CSS to create these designs. By using these tools correctly, we ensure that our created designs are visually appealing and organized.
 
 
 ### Key Components
