@@ -1,0 +1,1041 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+
+button {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    width: 100vw;
+    margin-top: 8px;
+    background-color: rgb(255, 255, 255);
+  }
+
+section {
+    width: 100vw;
+    padding: 1rem 2vw;
+    margin-top: 10px;
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+    background-color: rgba(106, 104, 104, 0);
+  }
+
+  
+
+/*DESIGN 1*/
+footer.design-one {
+    width: 100vw;
+    height: 35vh;;
+    display: flex;
+    background: rgb(18, 63, 148);
+}
+
+
+
+nav.navigation1 {
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-left: 150px;
+}
+
+nav.navigation2 {
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 150px;
+    justify-content: center;
+    margin-left: 150px; 
+}
+
+nav.navigation3 {
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 150px;
+    justify-content: center;
+    margin-left: 150px;
+}
+
+nav.navigation4 {
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 150px;
+    margin-top: 60px;
+    justify-content: start;
+}
+
+.company-logo1 {
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.des1-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 50px;
+    & p {
+        color: white;
+        font-weight: 300;
+        font-size: 0.8rem;
+    }
+}
+
+button.nav-design1 {
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: rgb(255, 255, 255);
+}
+
+button.nav-design2 {
+    justify-content: space-evenly;
+    font-weight: 300;
+    font-size: .8rem;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+}
+
+button.nav2-design1 {
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: rgb(255, 255, 255);
+}
+
+button.nav2-design2 {
+    justify-content: space-evenly;
+    font-weight: 300;
+    font-size: .8rem;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+}
+
+button.nav3-design1 {
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: rgb(255, 255, 255);
+}
+
+button.nav3-design2 {
+    justify-content: space-evenly;
+    font-weight: 300;
+    font-size: .8rem;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.fa-phone {
+    margin-right: 10px;
+}
+
+.fa-envelope {
+    margin-right: 10px;
+}
+
+.fa-tty {
+    margin-right: 10px;
+}
+
+.fa-copyright {
+    font-size: 10px;
+    font-weight: 100;
+}
+
+button.nav4-design1 {
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: rgb(255, 255, 255);
+}
+
+button.nav4-design2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+}
+
+
+/*DESIGN 2*/
+footer.design-two {
+    width: 100vw;
+    height: 38vh;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: start; /* Center content vertically */
+    background: rgb(10, 37, 87);
+}
+
+.footer-content2 {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+
+    & p {
+        margin-bottom: 50px;
+        color: white;
+        font-weight: 300;
+        font-size: 0.8rem;
+    }
+}
+
+img.company-logo2 {
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 15px; /* Add some space between the image and the button */
+}
+
+.navigation2-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10rem;
+}
+
+.nav-design2-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    font-size: 1.4rem;
+}
+
+button.nav2-design2-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+}
+
+/*DESIGN 3*/
+footer.design-three {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    background: rgb(0, 0, 0);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.438), rgba(0, 0, 0, 0.7)), url(../img/footer-porsche-footer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+.footer-content3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+button.nav2-design1-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 3rem;
+}
+
+button.nav2-design1-2 i {
+    color: white;
+    font-size: 1.5rem;
+    
+}
+
+.navigation2-footer2 {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+    max-width: 1260px; /* Limit the width of the paragraph */
+    & h3 {
+        font-size: .9rem;
+        font-weight: 200;
+    }
+}
+
+.porsche-brand {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    height: 20px;
+
+}
+
+/*DESIGN 4*/
+footer.design-four {
+    width: 100vw;
+    height: 12vh;
+    background: rgb(226, 221, 221);
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.navigation4-des4 {
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    gap: 1rem;
+    & h3 {
+        margin-left: 30px;
+        font-weight: 400;
+        font-size: 1.1rem;
+    }
+
+    & h2 {
+        margin-left: 30px;
+        font-weight: 400;
+        font-size: 1.1rem;
+        
+    }
+}
+
+.fa-copyright {
+    margin-left: 1px;
+    font-size: 1rem;
+}
+
+.navigation1-des4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.nav-design1-4 {
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.navline-design1-4 {
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+
+/*DESIGN 5*/
+footer.design-five {
+    width: 100vw;
+    padding: 2rem 2vw;
+    background: rgb(158, 7, 7);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.263), rgba(0, 0, 0, 0.7)), url(../img/header-ferrari-footer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.footer-section-about {
+    display: flex;
+    align-items: center;
+    justify-content: row;
+}
+
+img.company-logo5 {
+    height: 100px;
+    margin-bottom: 1rem;
+    margin-right: 20px;
+    filter: drop-shadow(1px 2px 4px #ffffff6a);
+}
+
+.footer-section-about p {
+    width: 600px;
+    font-size: 16px;
+    text-align: center;
+    padding: 1.5rem 2rem;
+    margin-left: 80px;
+    filter: drop-shadow(1px 2px 3px #000000);
+}
+
+nav.navigation5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-link {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    text-decoration: none;
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+    filter: drop-shadow(1px 2px 3px #000000);
+}
+
+.footer-section-newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & h3{
+        margin-bottom: 10px;
+        color: white;
+        border: none;
+        padding: 0.5rem 1rem;
+    }
+}
+
+.footer-section-newsletter input {
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: none;
+    border-radius: 9px;
+}
+
+.footer-section-newsletter button {
+    padding: 0.1rem 1rem;
+    margin-top: 4px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 15px;
+    filter: drop-shadow(1px 2px 3px #000000);
+}
+
+
+
+
+/*DESIGN 1*/
+footer.design-one-ani {
+    width: 100vw;
+    height: 35vh;;
+    display: flex;
+    background: rgb(18, 63, 148);
+}
+
+
+
+nav.navigation1-ani {
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-left: 150px;
+}
+
+nav.navigation2-ani {
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 150px;
+    justify-content: center;
+    margin-left: 150px; 
+}
+
+nav.navigation3-ani {
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 150px;
+    justify-content: center;
+    margin-left: 150px;
+}
+
+nav.navigation4-ani {
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 150px;
+    margin-top: 60px;
+    justify-content: start;
+}
+
+.company-logo1-ani {
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.des1-img-ani {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 50px;
+    & p {
+        color: white;
+        font-weight: 300;
+        font-size: 0.8rem;
+    }
+}
+
+button.nav-design1-ani {
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: rgb(255, 255, 255);
+}
+
+button.nav-design2-ani {
+    justify-content: space-evenly;
+    font-weight: 300;
+    font-size: .8rem;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+}
+
+button.nav-design2-ani:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(2px 2px black);
+}
+
+button.nav2-design1-ani {
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: rgb(255, 255, 255);
+}
+
+button.nav2-design2-ani {
+    justify-content: space-evenly;
+    font-weight: 300;
+    font-size: .8rem;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+}
+
+button.nav2-design2-ani:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(2px 2px black);
+}
+
+button.nav3-design1-ani {
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: rgb(255, 255, 255);
+}
+
+button.nav3-design2-ani {
+    justify-content: space-evenly;
+    font-weight: 300;
+    font-size: .8rem;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+}
+
+button.nav3-design2-ani:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(2px 2px black);
+}
+
+.fa-phone {
+    margin-right: 10px;
+}
+
+.fa-envelope {
+    margin-right: 10px;
+}
+
+.fa-tty {
+    margin-right: 10px;
+}
+
+.fa-copyright {
+    font-size: 10px;
+    font-weight: 100;
+}
+
+button.nav4-design1-ani {
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: rgb(255, 255, 255);
+}
+
+button.nav4-design2-ani {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+  
+.animated-icon {
+    color: #ffffff;
+    transition: all 300ms ease;
+}
+
+
+.animated-icon:hover {
+    transform: scale(1.4);
+    filter: drop-shadow(3px 3px 1px black);
+}
+
+.animated-icon:active {
+    transform: scale(1);
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+
+/*DESIGN 2*/
+footer.design-two-ani {
+    width: 100vw;
+    height: 38vh;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: start; /* Center content vertically */
+    background: rgb(10, 37, 87);
+}
+
+.footer-content2-ani {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+
+    & p {
+        margin-bottom: 50px;
+        color: white;
+        font-weight: 300;
+        font-size: 0.8rem;
+    }
+}
+
+img.company-logo2-ani {
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 15px; /* Add some space between the image and the button */
+}
+
+.navigation2-2-ani {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10rem;
+}
+
+.nav-design2-2-ani {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    font-size: 1.4rem;
+    position: relative;
+}
+
+button.nav2-design2-2-ani {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.nav-design2-2-ani::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform-origin: bottom right;
+    transition: transform 0.55s ease;
+}
+
+.nav-design2-2-ani:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    filter: drop-shadow(4px 4px 3px rgb(0, 0, 0));
+}
+
+.nav-design2-2-ani:hover {
+    transform: scale(1.1);
+}
+
+.nav-design2-2-ani:active {
+    transform: scale(1);
+    
+}
+
+
+
+/*DESIGN 3*/
+footer.design-three-ani {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    background: rgb(0, 0, 0);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.438), rgba(0, 0, 0, 0.7)), url(../img/header-porsche-footer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+.footer-content3-ani {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+button.nav2-design1-2-ani {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 3rem;
+}
+
+button.nav2-design1-2-ani i {
+    color: white;
+    font-size: 1.5rem;
+    
+}
+
+.navigation2-footer2-ani {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+    max-width: 1260px; /* Limit the width of the paragraph */
+    & h3 {
+        font-size: .9rem;
+        font-weight: 200;
+        cursor: pointer;
+    }
+}
+
+.porsche-brand-ani {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    height: 20px;
+    transition: all 800ms ease;
+
+
+}
+
+.navigation2-footer2-ani p {
+    transition: all 3100ms ease;
+}
+.navigation2-footer2-ani p:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(2px 2px 4px rgb(255, 255, 255));
+}
+
+
+
+.porsche-brand-ani:hover {
+    transform: rotateX(360deg) scale(1.1);
+    filter: drop-shadow(7px 5px 5px #fdfdfd);
+}
+
+.navigation2-footer2-ani h3 {
+    transition: all 100ms ease;
+}
+.navigation2-footer2-ani h3:hover {
+    transform: scale(1.2);
+    font-style: italic;
+    font-weight: 400;
+}
+
+/*DESIGN 4*/
+footer.design-four-ani {
+    width: 100vw;
+    height: 12vh;
+    background: rgb(226, 221, 221);
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.navigation4-des4-ani {
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    gap: 1rem;
+    & h3 {
+        margin-left: 30px;
+        font-weight: 400;
+        font-size: 1.1rem;
+    }
+
+    & h2 {
+        margin-left: 30px;
+        font-weight: 400;
+        font-size: 1.1rem;
+        
+    }
+}
+
+.fa-copyright-ani {
+    margin-left: 1px;
+    font-size: 1rem;
+}
+
+.navigation1-des4-ani {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1rem;
+    
+}
+
+.nav-design1-4-ani {
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 400;
+    transition: all 200ms ease;
+}
+
+.navline-design1-4-ani {
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+.nav-design1-4-ani:hover {
+    transform: scale(1.1);
+    background-color: #000000;
+    color: white;
+    padding: 3.5px;
+    filter: drop-shadow(2px 2px 3px black);
+    border-radius: 10px;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav-design1-4-ani:active {
+    transform: scale(1);
+    background-color: #00000000;
+    color: black;
+}
+
+.navigation4-des4-ani h3{
+    transition: all 400ms ease;
+}
+
+.navigation4-des4-ani h3:hover{
+    transform: scale(1.1);
+}
+
+/*DESIGN 5*/
+footer.design-five-ani {
+    width: 100vw;
+    padding: 2rem 2vw;
+    background: rgb(158, 7, 7);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.263), rgba(0, 0, 0, 0.7)), url(../img/header-ferrari-footer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-content-ani {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.footer-section-about-ani {
+    display: flex;
+    align-items: center;
+    justify-content: row;
+}
+
+img.company-logo5-ani {
+    height: 100px;
+    margin-bottom: 1rem;
+    margin-right: 20px;
+    transition: all 600ms ease;
+}
+
+.footer-section-about-ani p {
+    width: 600px;
+    font-size: 16px;
+    text-align: center;
+    padding: 1.5rem 2rem;
+    margin-left: 80px;
+    filter: drop-shadow(1px 2px 3px #000000);
+}
+
+nav.navigation5-ani {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-link-ani {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    text-decoration: none;
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+    filter: drop-shadow(1px 2px 3px #000000);
+}
+
+.footer-section-newsletter-ani {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & h3{
+        margin-bottom: 10px;
+        color: white;
+        border: none;
+        padding: 0.5rem 1rem;
+    }
+}
+
+.footer-section-newsletter-ani input {
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: none;
+    border-radius: 9px;
+}
+
+.footer-section-newsletter-ani button {
+    padding: 0.1rem 1rem;
+    margin-top: 4px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 15px;
+    filter: drop-shadow(1px 2px 3px #000000);
+}
+
+.footer-link-ani::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transition: transform 0.55s ease;
+}
+
+.footer-link-ani:hover::before {
+    transform: scaleX(.8);
+    filter: drop-shadow(4px 4px 3px rgb(0, 0, 0));
+}
+
+.footer-link-ani:hover {
+    transform: scale(1.1);
+}
+
+.footer-link-ani:active {
+    transform: scale(1);
+}
+
+.footer-link-ani2:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 3px rgba(255, 255, 255, 0.875);
+    font-style: italic;
+}
+
+.footer-link-ani2:active {
+    transform: scale(1  );
+    box-shadow: .1px .1px rgba(255, 255, 255, 0.875);
+}
+
+.footer-link-ani2 {
+    transition: all 100ms ease;
+}
+
+.company-logo5-ani:hover {
+    transform: scale(1.4) rotateZ(360deg);
+    filter: drop-shadow(1px 2px 4px #4b4b4b);
+
+}

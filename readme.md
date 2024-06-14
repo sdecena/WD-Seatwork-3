@@ -48,6 +48,9 @@
     <li>
       <a href="#resources">Resources</a>
     </li>
+        <li>
+      <a href="#documentation">Documentation</a>
+    </li>
   </ol>
 </details>
 
@@ -57,20 +60,16 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+The project involves creating a variety of web design components including 5 static header designs, 5 animated header designs, 5 static footer designs, and 5 animated footer designs. The purpose is to showcase our creativity and develop our skills in web design. The key components include various layouts/designs for both header and footer and different animations as well. We used HTML and CSS to create these designs. By using these tools correctly, we ensure that out created designs are visually appealing and organized.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- 5 Static Header Designs & 5 Static Footer Designs
+- 5 Animated Header Designs & 5 Animated Footer Designs
+- Hover Animations
+- Search Bar Element
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -117,7 +116,6 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
 | Font Awesome Icons | Using the social media icons for design | https://fontawesome.com/search?q=email&o=r |
 | Landing Page Background | Background image design for landing page | https://unsplash.com/photos/a-person-standing-on-top-of-a-hill-under-a-night-sky-filled-with-stars-CgQ1TZ0gDd8 |
 | Drop Shadow Effect | Drop Shadow Effect for other logos, texts, and icons | https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow |
@@ -125,4 +123,26 @@ WD-ProjectName
 | Uppercase on Hover | To turn the text into uppercase on hover | https://bytes.com/topic/html-css/966229-hover-over-text-then-display-upper-case |
 | 3D Buttons | 3D button effect on navigation | https://www.youtube.com/watch?v=cWeWnO8XKds |
 | Search Bar | To add the search bar effect on hover | https://www.youtube.com/watch?v=tkzP6D1iMug |
+| Underline Animation | Animation when hovering on links. | https://tobiasahlin.com/blog/css-trick-animating-link-underlines/ |
+| Background Image Gradient Shade  | To add gradient shade effect on my background image. | https://www.geeksforgeeks.org/how-to-darken-an-image-using-css/ |
+| Hover Growing Underline Animation  | Left to right underline hover animation | https://www.30secondsofcode.org/css/s/hover-underline-animation/ |
+| Hover Growing (Middle) Underline Animation | Growing underline from middle hover animation. | https://tobiasahlin.com/blog/css-trick-animating-link-underlines/ |
+| Porsche Design BG Image | Background image used for the porsche design | https://www.vecteezy.com/vector-art/2400794-dark-widescreen-header-with-hexagons-with-different-transparencies-modern-black-geometric-design-banner-simple-vector-illustration-background |
+| Ferrari Design BG Image | Background image used for the ferrari design | https://stock.adobe.com/ph/images/modern-simple-red-and-white-abstract-banner-background-red-vector-metal-background-with-wave-and-space-for-your-text/535701783 |
 
+## Documentation
+- 06/08: Started creating the landing page of the website.
+---
+- 06/09: Started on the 5 Static Header Designs.
+---
+- 06/10: Finished the 5 Static Headers.
+Start the 5 Animated Header Designs.
+---
+- 06/11: Worked on the 5 Animated Headers.
+---
+- 06/12: Finished the Animated Headers.
+---
+- 06/13: Finished the 5 Static Footer Designs.
+---
+- 06/14: Finished the 5 Animated Footer Designs.
+---
