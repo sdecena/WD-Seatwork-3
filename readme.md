@@ -48,11 +48,8 @@
     <li>
       <a href="#resources">Resources</a>
     </li>
-    <li>
+      <li>
       <a href="#documentation">Documentation</a>
-    </li>
-        <li>
-      <a href="#deployment-link">Deployment Link</a>
     </li>
   </ol>
 </details>
@@ -149,7 +146,3 @@ Start the 5 Animated Header Designs.
 ---
 - 06/14: Finished the 5 Animated Footer Designs.
 ---
-
-## Deployment Link
-
-Link: https://sdecena.github.io/WD-Seatwork-3/
